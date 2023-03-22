@@ -1,0 +1,59 @@
+---
+title: "Remote Sensing Sensor Overview"
+subtitle: "🛰️Landsat8 introduciton"
+author: "Yinhao Zhan"
+institute: "CASA, UCL"
+date: "2023/03/21 (updated: `r Sys.Date()`)"
+
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    #css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+class: center, inverse 
+background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80")
+background-size: cover
+
+
+# Content
+
+XXXX<br/>
+XXXX
+
+
+
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "https://landsat.gsfc.nasa.gov/wp-content/uploads/2021/10/cropped-nasa_newlogo_bg_sm.png")
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
+
+
+---
+
+# H1
+
+---
+
+# H2
+
+---
+
+# H3
+
+
+
+
+
+
+
