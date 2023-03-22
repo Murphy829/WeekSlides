@@ -27,23 +27,37 @@ class: center, middle, inverse, title-slide
 ### CASA, UCL
 ]
 .date[
-### 2023/03/21 (updated: 2023-03-22)
+### (updated: 2023-03-22)
 ]
 
 ---
 
 
-class: center, inverse 
-background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2672&amp;q=80")
+class: left, inverse 
+background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width/public/ldcm.jpg?itok=NxKTy8Qd")
 background-size: cover
 
 
-# Content
+# Quick Facts
 
-XXXX&lt;br/&gt;
-XXXX
-
-
+- **Launch Date**: &lt;br/&gt;
+February 11, 2013
+- **Sensors**:&lt;br/&gt;
+OLI, TIRS
+- **Altitude**:&lt;br/&gt;
+705 km
+- **Inclination**:&lt;br/&gt;
+98.2°
+- **Orbit**:&lt;br/&gt;
+polar, sun-synchronous
+- **Equatorial Crossing Time**:&lt;br/&gt;
+nominally 10 AM (± 15 min.)&lt;br/&gt; local time (descending node)
+- **Period of Revolution**:&lt;br/&gt;
+99 minutes; ~14.5 orbits/day
+- **Repeat Coverage**:&lt;br/&gt;
+16 days
+- **Data**:&lt;br/&gt;
+12-bit scaled to 16-bit integers
 
 
 <div>
@@ -51,7 +65,7 @@ XXXX
 width: 110px;
 height: 128px;
 z-index: 0;
-background-image: url(https://landsat.gsfc.nasa.gov/wp-content/uploads/2021/10/cropped-nasa_newlogo_bg_sm.png);
+background-image: url(https://landsat.gsfc.nasa.gov/wp-content/uploads/2013/01/ldcm_2012_COL-300x168.png);
 background-size: contain;
 background-repeat: no-repeat;
 position: absolute;
@@ -85,22 +99,114 @@ top:1em;right:1em;
 
 ---
 
-# H1
+# Overview
+.pull-left[
+Landsat 8 launched on February 11, 2013, from Vandenberg Air Force Base, California, on an Atlas-V 401 rocket, with the extended payload fairing
+ (EPF) from United Launch Alliance, LLC. ([The Landsat 8 Launch in Quotes.](https://earthobservatory.nasa.gov/blogs/fromthefield/2013/02/09/the-landsat-8-launch-in-quotes/)) At over 40 years, the Landsat series of satellites provides the longest temporal record of space-based surface observations. Landsat 1 was launched in 1972 and was followed by a series of consecutive, temporally overlapping, Landsat observatories (Landsat 2, 3, 4, 5 and 7) that have provided near-global coverage reflective and thermal wavelength observations with increasing spectral and spatial fidelity ([Lauer et al., 1997](http://www.asprs.org/wp-content/uploads/pers/1997journal/jul/1997_jul_831-838.pdf), [Loveland and Dwyer, 2012](https://www.sciencedirect.com/science/article/pii/S0034425712000351), [Williams et al., 2006](https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=2ea0f1c3de07f197d7e239b7f950a9e3db778e6e)). 
+]
+
+.pull-right[
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Landsat_Data_Continuity_Mission_Observatory_testing.jpg/450px-Landsat_Data_Continuity_Mission_Observatory_testing.jpg"/ width="300"&gt;&lt;br/&gt;
+(Landsat 8 during ground testing. NASA)
+]
+
 
 ---
 
-# H2
+# Evolutionary Advances
+
+
+Landsat 8 instruments represent an evolutionary advance in technology. OLI improves on past Landsat sensors using a technical approach demonstrated by a sensor flown on NASA’s experimental EO-1 satellite.
+
+
+
+![](https://landsat.gsfc.nasa.gov/wp-content/uploads/2021/12/ETMvOLI-TIRS-web_Feb20131.jpg)
+&lt;br/&gt;(Source: L.Rocchio&amp;J.Barsi)
+
+
+---
+# Evolutionary Advances 2
+
+The graphic right compares the OLI spectral bands to Landsat 7′s ETM+ bands. OLI provides two new spectral bands, one tailored especially for detecting cirrus clouds and the other for coastal zone observations.
+
+&lt;img src="https://landsat.gsfc.nasa.gov/wp-content/uploads/2021/12/BandpassesL7vL8_Jul20131-1024x611-1.jpg"/ width=600/&gt;&lt;br/&gt;
+(Source: Table courtesy of B. Markham (July 2013))
+
+---
+# Landsat 8’s first image
+Landsat 8’s first image captured the area where the Great Plains and Rocky Mountains meet in Colorado. The natural-color image shows the coniferous forest of the mountains coming down to the dormant plains. Boulder, Colorado, sits in the middle of the image. Landsat 8’s Operational Land Imager (OLI) sensor was developed and built here by the Ball Aerospace &amp; Technologies Corporation. 
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;img src="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/side_image/public/media/images/MicrosoftTeams-image%20%2849%29.png?itok=ucAXtTxt"/ width=300/&gt;&lt;br/&gt;
+(Sources/Usage: Public Domain.)
+
+
 
 ---
 
-# H3
+# Landsat 8 OLI and TIRS and their uses
+
+
+Landsat 8 carries two sensors. The Operational Land Imager sensor is built by Ball Aerospace &amp; Technologies Corporation. The Thermal Infrared Sensor is built by NASA Goddard Space Flight Center.
 
 
 
+&lt;img src="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/Band.jpg"/ width=450&gt;
+&lt;br/&gt;(Source: [USGS](https://www.usgs.gov/media/images/landsat-8-oli-and-tirs-and-their-uses))
+
+
+---
+# Landsat 8 Data Products
+
+Landsat 8 data products are consistent with the all standard Level-1 (orthorectified) data products created using Landsat 1 to Landsat 7 data to the following specifications:
+
+- Processing:
+  - Level 1 T- Terrain Corrected
+  
+- Pixel Size:
+  - OLI multispectral bands 1-7,9: 30-meters
+  - OLI panchromatic band 8: 15-meters
+  - TIRS bands 10-11: collected at 100 meters but resampled to 30 meters to match OLI multispectral bands
+
+
+---
+# Landsat 8 Data Products 2
+
+- Data Characteristics:	
+  - GeoTIFF data format
+  - Cubic Convolution (CC) resampling
+  - North Up (MAP) orientation
+  - Universal Transverse Mercator (UTM) map projection (Polar Stereographic for Antarctica)
+  - World Geodetic System (WGS) 84 datum
+  - 12 meter circular error, 90% confidence global accuracy for OLI
+  - 41 meter circular error, 90% confidence global accuracy for TIRS
+  - 16-bit pixel values
+
+- Data Delivery:
+   - .tar.gz compressed file via HTTP Download
+
+- File size
+  - Approximately 1 GB (compressed), approximately 2 GB (uncompressed)
 
 
 
+---
+# Specifications of Landsat-8 and other satellite
 
+&lt;img src="https://www.researchgate.net/publication/337519967/figure/tbl1/AS:829315960811525@1574735741874/Specifications-of-Landsat-8-and-Sentinel-2-satellite-imagery.png"/ width=600/&gt;&lt;br/&gt;
+(Source: [Dixit et al. (2019)](https://www.researchgate.net/publication/337519967_Development_and_Evaluation_of_a_New_Snow_Water_Index_SWI_for_Accurate_Snow_Cover_Delineation))
+
+
+---
+# Reference
+
+ - Dixit, A., Goswami, A., &amp; Jain, S. (2019). Development and evaluation of a new “Snow Water Index (SWI)” for accurate snow cover delineation. Remote Sensing, 11(23), 2774.
+
+- Lauer, D. T., Morain, S. A., &amp; Salomonson, V. V. (1997). The Landsat program: Its origins, evolution, and impacts. Photogrammetric Engineering and Remote Sensing, 63(7), 831-838.
+
+- Loveland, T. R., &amp; Dwyer, J. L. (2012). Landsat: Building a strong future. Remote Sensing of Environment, 122, 22-29.
+
+- Williams, D. L., Goward, S., &amp; Arvidson, T. (2006). Landsat: Yesterday, today, and tomorrow. Photogrammetric Engineering and Remote Sensing, 72(10), 1171.
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -108,7 +214,7 @@ top:1em;right:1em;
 "highlightStyle": "github",
 "highlightLines": true,
 "countIncrementalSlides": false,
-"ratio": "16:9"
+"ratio": "4:3"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
