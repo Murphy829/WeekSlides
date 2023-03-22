@@ -52,7 +52,6 @@ xaringanExtra::use_logo(
 xaringanExtra::use_tile_view()
 ```
 
-
 ---
 
 # Overview
